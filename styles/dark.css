@@ -11,12 +11,12 @@
   */
 
   --accent-color: #ff0070;
-  --main-bg-color: #00183f;
+  --main-bg-color: #000028;
   --nav-color: #ff0070;
   --header-logo-color: #db00ff;
   --footer-logo-color: #db00ff;
   --main-text-color: #f1b2ce;
-  --main-heading-color: #00183f;
+  --main-heading-color: #000028;
   --section-heading-color: #ff0070;
 
   background-image: url(../images/cover-image-dark.png);

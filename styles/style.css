@@ -35,10 +35,7 @@ margin: 20px 0;
   color: var(--nav-color);
 }
 
-/* @supports (block-size: 100dvb;)
-.header {
-  block-size: 100dvb;
-} */
+
 
 button, a {
 color: currentColor;
@@ -159,6 +156,41 @@ line-height: inherit;
     align-self: end;
     padding-top: 4%;
   }
+  
+  .grid__image:nth-of-type(3) {
+    grid-row: span 2;
+    width: 94.7vw;
+    height: 63.2vw;
+  }
+  
+  .grid__image:nth-of-type(2) {
+    grid-row: span 2;
+    width: 94.7vw;
+    height: 94.7vw;
+  }
+  
+  .grid__image:first-of-type {
+    grid-column: span 2;
+    width: 94.7vw;
+    height: 37.9vw;
+  }
+  
+  .grid__image:last-of-type {
+    grid-column: span 2;
+    width: 94.7vw;
+    height: 63.2vw;
+  }
+
+  .grid__image {
+    gap: var(--main-gap);
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 94.7vw;
+    height: 94.7vw;
+    object-position: center;
+
+  }
+
 }
 
 
@@ -239,6 +271,7 @@ line-height: inherit;
     grid-row: 2 span;
   }
   .grid {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1024px;
   }
@@ -251,22 +284,32 @@ line-height: inherit;
     block-size: 100%;
     object-fit: cover;
     object-position: center;
+    width: 31vw;
+    height: 31vw;
   }
   
   .grid__image:nth-of-type(3) {
     grid-row: span 2;
+    width: 31vw;
+    height: 75vw;
   }
   
   .grid__image:nth-of-type(2) {
     grid-row: span 2;
+    width: 31vw;
+    height: 58vw;
   }
   
   .grid__image:first-of-type {
     grid-column: span 2;
+    width: 64vw;
+    height: 25.5vw;
   }
   
   .grid__image:last-of-type {
     grid-column: span 2;
+    width: 63.5vw;
+    height: 41.9vw;
   }
 
 }
@@ -280,13 +323,31 @@ line-height: inherit;
   .header__theme-menu {
   justify-self: center;
   align-self: start;
+  position: absolute;
+  top: 22px;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
   }
 
-  .content-sectioon {
-    grid-template-columns: repeat(3, 1fr);
+  .what .text-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--main-gap); 
   }
+
+  .what .text-block__heading {
+    margin-top: 0px;
+  }
+
+  .what .text-block {
+    margin-top: 0px;
+  }
+
+  .content-section:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
