@@ -408,7 +408,10 @@ line-height: inherit;
   .content-section:nth-child(2) {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 828px;
   }
 
+  .content-section:first-of-type {
+    margin-top: 828px;
+
+  }
 }
