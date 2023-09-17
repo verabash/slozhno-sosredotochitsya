@@ -13,7 +13,8 @@ body {
   max-inline-size: 1440px;
   margin: 0 auto;
   font-family: var(--main-font-family, monospace);
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 23.4px;
   padding: 0 10px;
 }
 
@@ -131,6 +132,7 @@ line-height: inherit;
 .title-decor {
   background-color: var(--accent-color);
   color: black;
+  font-weight: 700;
 }
 
 .text-block-subheading {
@@ -166,6 +168,7 @@ line-height: inherit;
   .header__text {
     inline-size: 95vw;
     padding-left: 0px;
+    font-weight: 700;
   }
 
   .header__paragraph {
@@ -181,7 +184,6 @@ line-height: inherit;
     position: absolute;
     top: 77px;
     justify-self: end;
-    /* padding-top: 4%; */
   }
   
   .grid__image:nth-of-type(3) {
