@@ -224,7 +224,7 @@ line-height: inherit;
 }
 
 
-@media (width >=768px) {
+@media (width >768px) {
   .header__logo {
     color: var(--footer-logo-color);
     font-size: var(--footer-logo-size);
