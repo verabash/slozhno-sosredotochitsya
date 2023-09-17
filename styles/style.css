@@ -122,13 +122,13 @@ line-height: inherit;
 
 .content-section {
   padding-bottom: 50px;
+  line-height: 23px;
 }
 
 .content-section__title {
   color: var(--nav-color);
-  padding-bottom: 20px;
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 23px;
 }
 
 .title-decor {
