@@ -228,16 +228,25 @@ line-height: inherit;
   .header__logo {
     color: var(--footer-logo-color);
     font-size: var(--footer-logo-size);
+    display: flex;
+    position: relative;
+    top: 463px;
+    justify-self: start;
   }
   
   .header__text {
     inline-size: 50%;
+    display: flex;
+    justify-self: end;
+    /* position: relative; */
+    /* top: 724px; */
+    margin-top: 724px;
   }
 
   .header__theme-menu {
     display: flex;
     justify-self: end;
-    align-self: end;
+    margin-right: 20px;
   }
 
   .header__paragraph {
@@ -269,6 +278,15 @@ line-height: inherit;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
+  }
+
+   .content-section:nth-child(2) {
+    grid-template-columns: 1fr;
+
+  }
+
+  .content-section__title {
+    width: 236px;
   }
   
   .content-sectioon:not(:last-of-type) {
