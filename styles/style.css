@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   font-family: var(--main-font-family, monospace);
   font-size: 16px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .text-block__heading {
@@ -48,6 +48,14 @@ line-height: inherit;
   display: flex;
   flex-direction: column;
   gap: var(--main-gap);
+}
+
+.header__rec {
+  color: var(--nav-color);
+  display: flex;
+  justify-self: end;
+  padding: 20px 48px;
+
 }
 
 .header__theme-menu-button {
@@ -98,14 +106,17 @@ line-height: inherit;
 
 .header__text {
   display: flex;
-  justify-self: end;
-  padding: 21vw 10px;
+  justify-content: start;
+  align-items: start;
+  margin: 21vw 0vw;
+  margin-right: 20px;
+  background-color: var(--accent-color);
+
 }
 
 .header__paragraph {
-  background-color: var(--accent-color);
   color: black;
-
+  display: flex;
 }
 
 .content-section {
@@ -122,6 +133,10 @@ line-height: inherit;
   color: black;
 }
 
+.text-block-subheading {
+  margin: 20px 0px;
+}
+
 .footer {
   block-size: 100dvb;
   display: flex;
@@ -136,56 +151,67 @@ line-height: inherit;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-/* .grid {
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1024px));
-} */
 
 @media (width<= 768px) {
   .header__logo {
     color: var(--footer-logo-color);
     font-size: var(--footer-logo-size);
+  
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 192px;
   }
 
   .header__text {
-    inline-size: 50%;
+    inline-size: 95vw;
+    padding-left: 0px;
+  }
+
+  .header__paragraph {
+    width: 350px;
+  }
+
+  .header {
+    height: 688px;
   }
 
   .header__theme-menu {
     display: flex;
+    position: absolute;
+    top: 77px;
     justify-self: end;
-    align-self: end;
-    padding-top: 4%;
+    /* padding-top: 4%; */
   }
   
   .grid__image:nth-of-type(3) {
     grid-row: span 2;
-    width: 94.7vw;
+    width: 96.1vw;
     height: 63.2vw;
   }
   
   .grid__image:nth-of-type(2) {
     grid-row: span 2;
-    width: 94.7vw;
+    width: 96.1vw;
     height: 94.7vw;
   }
   
   .grid__image:first-of-type {
     grid-column: span 2;
-    width: 94.7vw;
+    width: 96.1vw;
     height: 37.9vw;
   }
   
   .grid__image:last-of-type {
     grid-column: span 2;
-    width: 94.7vw;
+    width: 96.1vw;
     height: 63.2vw;
   }
 
   .grid__image {
     gap: var(--main-gap);
     padding-top: 10px;
-    padding-right: 10px;
-    width: 94.7vw;
+    width: 96.1vw;
     height: 94.7vw;
     object-position: center;
 
@@ -208,6 +234,10 @@ line-height: inherit;
     display: flex;
     justify-self: end;
     align-self: end;
+  }
+
+  .header__paragraph {
+    width: 48vw;
   }
   
   .content {
