@@ -230,7 +230,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     position: relative;
-    top: 450px;
+    top: 350px;
     justify-self: start;
   }
   
