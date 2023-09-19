@@ -38,7 +38,9 @@ margin: 20px 0;
 
 }
 
-
+.footer {
+  color: var(--main-bg-color);
+}
 
 button, a {
 color: currentColor;
