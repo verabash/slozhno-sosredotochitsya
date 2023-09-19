@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* background-image: url(../images/cover-image-dark.png); */
+  background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -139,7 +139,7 @@ line-height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--main-bg-color);
+ background-color: var(--main-bg-color);
 
 }
 
@@ -287,11 +287,11 @@ line-height: inherit;
     width: 236px;
   }
   
-  .content-sectioon:not(:last-of-type) {
+  .content-section:not(:last-of-type) {
     margin-block-end: calc(4 + var(--main-gap));
   }
   
-  .content-sectioon__title {
+  .content-section__title {
     margin-inline-end: 0;
   }
   
@@ -311,7 +311,7 @@ line-height: inherit;
     margin-block-start: var(--main-gap);
   }
   
-  .causes .content-sectioon__title {
+  .causes .content-section__title {
     grid-column: 1/2;
     grid-row: 1/2;
   }
