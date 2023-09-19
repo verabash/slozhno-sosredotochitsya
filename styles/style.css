@@ -38,10 +38,6 @@ margin: 20px 0;
 
 }
 
-.footer {
-  color: var(--main-bg-color);
-}
-
 button, a {
 color: currentColor;
 font-family: inherit;
@@ -143,6 +139,8 @@ line-height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--main-bg-color);
+
 }
 
 .footer__logo {
