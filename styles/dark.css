@@ -34,3 +34,20 @@
   --nav-hover-color: rgb(225 0 112/ 0.4);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --main-bg-color: #000028;
+    --nav-color: #ff0070;
+    --header-logo-color: #db00ff;
+    --footer-logo-color: #db00ff;
+    --main-text-color: #f1b2ce;
+    --main-heading-color: #000028;
+    --section-heading-color: #ff0070;
+
+  }
+    .page {
+      background-image: url(../images/cover-image-dark.png);
+    }
+
+}
