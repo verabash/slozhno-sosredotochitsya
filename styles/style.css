@@ -13,7 +13,7 @@
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
   font-family: var(--main-font-family, monospace);
   font-size: 18px;
   line-height: 23.4px;
@@ -25,6 +25,7 @@ margin: 20px 0;
 }
 
 .header {
+  height: 100dvb;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -324,15 +325,14 @@ line-height: inherit;
 
   .content-section__title {
     width: 236px;
+    margin-inline-end: 0;
+
   }
   
   .content-section:not(:last-of-type) {
     margin-block-end: calc(4 + var(--main-gap));
   }
   
-  .content-section__title {
-    margin-inline-end: 0;
-  }
   
   .text-block {
     margin-block-start: var(--main-gap);
