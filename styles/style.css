@@ -250,7 +250,7 @@ line-height: inherit;
 
   }
 
-  .decorated-zone::after {
+  /* .decorated-zone::after {
     content: "";
     position: absolute;
     right: 20px;
@@ -270,7 +270,7 @@ line-height: inherit;
     height: 25px;
     border-bottom: 1px solid var(--accent-color);
     border-left: 1px solid var(--accent-color);
-  }
+  } */
 
 
 .header__theme-menu-list {
@@ -363,12 +363,17 @@ line-height: inherit;
 
 
 @media (width >=768px) {
+  .header {
+    height: 927px;
+  }
+
+
   .header__logo {
     color: var(--footer-logo-color);
     font-size: var(--footer-logo-size);
     display: flex;
     position: relative;
-    top: 390px;
+    /* top: 390px; */
     justify-self: start;
   }
 
@@ -421,6 +426,9 @@ line-height: inherit;
 
   .header__text {
     margin-block-start: 48px;
+    margin-left: 364px;
+    width: 364px;
+    margin-right: 20px;
   }
 
   .header__paragraph {
