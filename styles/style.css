@@ -320,6 +320,7 @@ line-height: inherit;
     grid-template-rows: auto;
     min-width: 768px;
     max-height: 768px;
+    padding-bottom: 0px;
   }
 
   .header__logo {
@@ -327,6 +328,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
+    margin-top: 80px;
   }
 
 
@@ -364,7 +366,7 @@ line-height: inherit;
   }
 
   .header__text {
-    margin-block-start: 48px;
+    margin-block-start: 162px;
     margin-left: 364px;
     width: 364px;
     margin-right: 20px;
