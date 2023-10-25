@@ -319,7 +319,7 @@ line-height: inherit;
   .header {
     grid-template-rows: auto;
     min-width: 768px;
-    min-height: 1024px;
+    min-height: 768px;
   }
 
   .header__logo {
