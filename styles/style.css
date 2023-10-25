@@ -328,7 +328,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    margin-top: 80px;
+    margin-top: 283px;
   }
 
 
@@ -357,6 +357,7 @@ line-height: inherit;
   .header__theme-menu {
     grid-column: 2 / 3;
     align-self: end;
+    margin-top: 183px;
   }
   
   
