@@ -370,13 +370,13 @@ line-height: inherit;
   .header__text {
     margin-block-start: 162px;
     margin-left: 364px;
-    width: 364px;
+    width: 370px;
     margin-right: 20px;
     margin-top: 160px;
   }
 
   .header__paragraph {
-    width: 48vw;
+    width: 45vw;
   }
   
   .content {
