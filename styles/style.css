@@ -328,7 +328,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    margin-top: 360px;
+    padding-top: 360px;
   }
 
 
