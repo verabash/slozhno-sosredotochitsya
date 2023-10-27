@@ -357,13 +357,14 @@ line-height: inherit;
   .header__theme-menu {
     grid-column: 2 / 3;
     align-self: end;
-    margin-top: 194px;
   }
   
   
   .header__theme-menu-list {
     grid-template-columns: 1fr;
     justify-items: end;
+    padding-top: 194px;
+
   }
 
   .header__text {
