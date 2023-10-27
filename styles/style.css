@@ -412,7 +412,8 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 300px;
+    margin-top: 280px;
+    padding-top: 30px;
   }
 
   .content-section__title {
