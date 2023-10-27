@@ -363,7 +363,7 @@ line-height: inherit;
   .header__theme-menu-list {
     grid-template-columns: 1fr;
     justify-items: end;
-    padding-top: 183px;
+    padding-top: 163px;
 
   }
 
