@@ -363,7 +363,7 @@ line-height: inherit;
   .header__theme-menu-list {
     grid-template-columns: 1fr;
     justify-items: end;
-    padding-top: 163px;
+    padding-top: 160px;
 
   }
 
@@ -411,7 +411,7 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 350px;
+    margin-top: 340px;
   }
 
   .content-section__title {
