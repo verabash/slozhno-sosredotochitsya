@@ -320,7 +320,7 @@ line-height: inherit;
     grid-template-rows: auto;
     min-width: 768px;
     max-height: 768px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
   }
 
   .header__logo {
@@ -328,7 +328,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    padding-top: 380px;
+    padding-top: 390px;
   }
 
 
@@ -412,8 +412,8 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 280px;
-    padding-top: 30px;
+    margin-top: 270px;
+    padding-top: 40px;
   }
 
   .content-section__title {
