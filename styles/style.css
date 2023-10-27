@@ -122,8 +122,8 @@ line-height: inherit;
 
 .header__rec::after {
   position: absolute;
-  right: 28px;
-  top: 28px;
+  right: -17px;
+  top: 9px;
   content: "";
   width: 9px;
   height: 9px;
@@ -188,7 +188,9 @@ line-height: inherit;
 .content-section {
   padding-bottom: 49px;
   line-height: 23px;
+  padding: 0 10px;
 }
+
 
 .content-section__title {
   color: var(--nav-color);
