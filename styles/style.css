@@ -62,7 +62,6 @@ margin: 20px 0;
   font-style: inherit;
   font-weight: 700;
   line-height: 82.5%;
-  line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--accent-color);
 
 }
@@ -411,7 +410,7 @@ line-height: inherit;
 
    .content-section:nth-child(2) {
     grid-template-columns: 1fr;
-
+    padding-top: 80px;
   }
 
   .content-section:first-of-type {
