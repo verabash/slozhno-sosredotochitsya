@@ -423,7 +423,6 @@ line-height: inherit;
   .content-section__title {
     width: 236px;
     margin-inline-end: 0;
-
   }
   
   .content-section:not(:last-of-type) {
@@ -438,6 +437,7 @@ line-height: inherit;
   .text-block__heading {
     line-height: 23px;
     font-size: 18px;
+    margin: 10px 0px;
   }
   
   .text-blocks .text-block:first-of-type {
