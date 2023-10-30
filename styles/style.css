@@ -406,11 +406,13 @@ line-height: inherit;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
+    padding-bottom: 80px;
+
   }
 
    .content-section:nth-child(2) {
     grid-template-columns: 1fr;
-    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .content-section:first-of-type {
@@ -431,6 +433,11 @@ line-height: inherit;
   
   .text-block {
     margin-block-start: var(--main-gap);
+  }
+
+  .text-block__heading {
+    line-height: 23px;
+    font-size: 18px;
   }
   
   .text-blocks .text-block:first-of-type {
