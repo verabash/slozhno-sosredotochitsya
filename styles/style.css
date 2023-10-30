@@ -406,7 +406,7 @@ line-height: inherit;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 
   }
 
@@ -465,6 +465,7 @@ line-height: inherit;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1024px;
+    padding-bottom: 0px;
   }
   
   .grid-heading {
