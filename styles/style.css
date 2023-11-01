@@ -210,7 +210,6 @@ line-height: inherit;
 
 .footer {
   position: relative;
-  block-size: 100dvb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,6 +226,7 @@ line-height: inherit;
 
 
 @media (width <= 768px) {
+  
   
   .header {
     grid-template-columns: 1fr;
@@ -508,6 +508,10 @@ line-height: inherit;
 
 
 @media (width >= 1024px) {
+.page {
+height: 1024px;
+}
+
   .header {
     /* min-block-size: 640px; */
     /* max-height: 499px; */
