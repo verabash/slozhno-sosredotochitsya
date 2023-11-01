@@ -237,6 +237,13 @@ line-height: inherit;
     grid-column: 1 / 2;
     margin-inline-start: 0;
     font-size: var(--footer-logo-size);
+    padding-bottom: 55px;
+  }
+
+  .text-block-subheading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
   }
 
   .header__theme-menu-list {
@@ -335,7 +342,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    /* top: 8vh; */
+    top: 2vh;
   }
 
 
