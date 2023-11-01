@@ -511,7 +511,7 @@ line-height: inherit;
   .header {
     /* min-block-size: 640px; */
     max-height: 768px;
-    margin-bottom: 200px;
+    margin-bottom: 60px;
   }
 
   .header__logo {
