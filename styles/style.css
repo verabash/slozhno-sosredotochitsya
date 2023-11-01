@@ -210,7 +210,7 @@ line-height: inherit;
 
 .footer {
   position: relative;
-  block-size: 100dvb;
+  block-size: 75dvb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -596,7 +596,7 @@ line-height: inherit;
   .footer {
     position: relative;
     max-width: 1440px;
-   max-height: 766px;
+   /* max-height: 766px; */
   }
 
   .footer.decorated-zone::after {
