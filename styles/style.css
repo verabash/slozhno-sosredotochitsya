@@ -24,7 +24,7 @@ body {
 }
 
 .text-block__heading {
-margin: 20px 0;
+margin: 10px 0px;
 }
 
 .header {
@@ -246,11 +246,6 @@ line-height: inherit;
     padding-bottom: 70px;
   }
 
-  .text-block-subheading {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-  }
 
   .header__theme-menu-list {
   display: flex;
@@ -273,12 +268,6 @@ line-height: inherit;
     grid-column: 1 / 2;
     font-weight: 700;
     /* margin-block-start: 43px; */
-  }
-
-  .text-block_subheading {
-    padding-bottom: 10px;
-    line-height: 23px;
-    font-size: 18px;
   }
 
 
@@ -412,6 +401,8 @@ line-height: inherit;
   .header__paragraph {
     width: 45vw;
   }
+
+  
   
   .content {
     padding: calc(3 + var(--main-gap)) var(--main-gap);
@@ -471,6 +462,8 @@ line-height: inherit;
     line-height: 23px;
     font-size: 18px;
     margin: 10px 0px;
+    margin-block-start: var(--main-gap);
+
   }
   
   .text-blocks .text-block:first-of-type {
@@ -481,9 +474,7 @@ line-height: inherit;
     margin-block-start: calc(var(--main-gap) / 2);
   }
   
-  .text-block_subheading {
-    margin-block-start: var(--main-gap);
-  }
+
   
   .causes .content-section__title {
     grid-column: 1/2;
