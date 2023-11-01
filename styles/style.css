@@ -509,23 +509,36 @@ line-height: inherit;
 
 @media (width >= 1024px) {
   .header {
-    min-block-size: 640px;
+    /* min-block-size: 640px; */
+    min-height: 768px;
   }
 
   .header__logo {
     position: absolute;
-    top: 319px;
+    top: 264px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__text {
+    grid-row: 2;
+    align-self: start;
+    width: 491px;
+    margin-top:65px;
+    margin-bottom: 0px;
+    font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
   .header__theme-menu {
   justify-self: center;
   align-self: start;
   position: absolute;
-  top: 22px;
+  margin-right: 188px;
   }
 
   .header__theme-menu-list {
+    display: flex;
     flex-direction: row;
+    margin-top: 20px;
   }
 
   .what .text-blocks {
@@ -554,5 +567,10 @@ line-height: inherit;
   .content-section:first-of-type {
     margin-top: 0px;
     padding-top: 140px;
+  }
+
+  .footer {
+    max-width: 1440px;
+    min-height: 768px;
   }
 }
