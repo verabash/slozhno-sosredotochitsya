@@ -511,12 +511,12 @@ line-height: inherit;
   .header {
     /* min-block-size: 640px; */
     max-height: 768px;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
   }
 
   .header__logo {
-    position: absolute;
-    margin-top: 64px;
+    position: relative;
+    /* margin-top: 64px; */
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -524,7 +524,7 @@ line-height: inherit;
     grid-row: 2;
     align-self: start;
     width: 491px;
-    margin-top:885px;
+    /* margin-top:885px; */
     margin-bottom: 0px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
