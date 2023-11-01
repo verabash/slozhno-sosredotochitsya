@@ -575,6 +575,12 @@ line-height: inherit;
     padding-top: 140px;
   }
 
+  .grid-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
   .footer {
     max-width: 1440px;
     height: 768px;
