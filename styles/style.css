@@ -561,7 +561,7 @@ line-height: inherit;
   }
 
 .content-section {
-  padding-bottom: 80px;
+  padding-bottom: 79px;
 
 }
 
@@ -577,6 +577,6 @@ line-height: inherit;
 
   .footer {
     max-width: 1440px;
-    max-height: 768px;
+    height: 768px;
   }
 }
