@@ -335,7 +335,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    top: 45vh;
+    top: 10vh;
   }
 
 
@@ -354,7 +354,7 @@ line-height: inherit;
      content: "";
     position: absolute;
     left: 20px;
-    /* bottom: -300px; */
+    bottom: 10px;
     width: 25px;
     height: 25px;
     border-bottom: 1px solid var(--accent-color);
@@ -376,7 +376,9 @@ line-height: inherit;
 
   .header__text {
     position: relative;
-    top:70vh;
+    top: 171px;
+    justify-self: end;
+    /* right: 0px; */
     /* margin-block-start: 162px; */
     width: 370px;
     margin-right: 20px;
@@ -423,7 +425,7 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 270px;
+    /* margin-top: 270px; */
     padding-top: 40px;
   }
 
@@ -532,6 +534,10 @@ line-height: inherit;
     top: 23vh;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
+  .header__paragraph {
+  width: 48vw;
+}
 
   .header__text {
     grid-row: 2;
