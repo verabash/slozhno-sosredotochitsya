@@ -238,7 +238,8 @@ line-height: inherit;
 
   .header__logo {
     position: relative;
-    top: 4vh;
+    padding-top: 20px;
+    /* top: 4vh; */
     grid-column: 1 / 2;
     margin-inline-start: 0;
     font-size: var(--footer-logo-size);
