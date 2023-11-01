@@ -238,7 +238,7 @@ line-height: inherit;
 
   .header__logo {
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
     /* top: 4vh; */
     grid-column: 1 / 2;
     margin-inline-start: 0;
