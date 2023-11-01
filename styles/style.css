@@ -508,9 +508,9 @@ line-height: inherit;
 
 
 @media (width >= 1024px) {
-.page {
-height: 1024px;
-}
+  .page {
+  max-height: 1024px;
+  }
 
   .header {
     /* min-block-size: 640px; */
