@@ -276,6 +276,14 @@ line-height: inherit;
     /* margin-block-start: 43px; */
   }
 
+  .text-block_subheading {
+    padding-bottom: 10px;
+    line-height: 23px;
+    font-size: 18px;
+  }
+
+
+
   .header__rec {
     top:10px;
     right: 38px;
