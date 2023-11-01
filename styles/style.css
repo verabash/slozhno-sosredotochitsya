@@ -510,7 +510,7 @@ line-height: inherit;
 @media (width >= 1024px) {
   .header {
     /* min-block-size: 640px; */
-    max-height: 768px;
+    max-height: 500px;
     margin-bottom: 200px;
   }
 
@@ -525,7 +525,7 @@ line-height: inherit;
     align-self: start;
     width: 491px;
     /* margin-top:885px; */
-    margin-bottom: 0px;
+    margin-bottom: 164pxpx;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
