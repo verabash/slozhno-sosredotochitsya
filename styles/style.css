@@ -510,7 +510,7 @@ line-height: inherit;
 @media (width >= 1024px) {
   .header {
     /* min-block-size: 640px; */
-    min-height: 768px;
+    max-height: 768px;
     margin-bottom: 200px;
   }
 
