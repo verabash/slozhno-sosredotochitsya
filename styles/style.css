@@ -234,6 +234,7 @@ line-height: inherit;
   .header {
     grid-template-columns: 1fr;
     justify-content: center;
+    margin-bottom: 40px;
   }
 
   .header__logo {
