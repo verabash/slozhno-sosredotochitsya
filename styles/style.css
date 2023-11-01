@@ -335,7 +335,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    top: 8vh;
+    /* top: 8vh; */
   }
 
 
@@ -376,7 +376,7 @@ line-height: inherit;
 
   .header__text {
     position: relative;
-    top: 140px;
+    top: 50px;
     justify-self: end;
     /* right: 0px; */
     /* margin-block-start: 162px; */
