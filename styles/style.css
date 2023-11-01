@@ -593,7 +593,17 @@ line-height: inherit;
 }
 
   .footer {
+    position: relative;
     max-width: 1440px;
     height: 768px;
+  }
+
+  .decorated-zone::after {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .decorated-zone::before {
+    bottom: 10px;
   }
 }
