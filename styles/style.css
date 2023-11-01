@@ -580,6 +580,17 @@ line-height: inherit;
     font-weight: 700;
     line-height: 23px;
   }
+  
+.text-block__paragraph {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-block-subheading {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
 
   .footer {
     max-width: 1440px;
