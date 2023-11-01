@@ -24,7 +24,8 @@ body {
 }
 
 .text-block__heading {
-margin: 10px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .header {
