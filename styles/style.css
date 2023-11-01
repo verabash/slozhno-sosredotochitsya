@@ -227,6 +227,9 @@ line-height: inherit;
 
 @media (width <= 768px) {
   
+  .page {
+    max-height: 668px;
+  }
   
   .header {
     grid-template-columns: 1fr;
@@ -234,6 +237,8 @@ line-height: inherit;
   }
 
   .header__logo {
+    position: relative;
+    top: 1vh;
     grid-column: 1 / 2;
     margin-inline-start: 0;
     font-size: var(--footer-logo-size);
@@ -265,6 +270,7 @@ line-height: inherit;
 
   .header__text {
     grid-column: 1 / 2;
+    font-weight: 700;
     /* margin-block-start: 43px; */
   }
 
@@ -386,6 +392,7 @@ line-height: inherit;
     position: relative;
     top: 50px;
     justify-self: end;
+    font-weight: 700;
     /* right: 0px; */
     /* margin-block-start: 162px; */
     width: 370px;
