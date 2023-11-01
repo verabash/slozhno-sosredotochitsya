@@ -237,7 +237,7 @@ line-height: inherit;
     grid-column: 1 / 2;
     margin-inline-start: 0;
     font-size: var(--footer-logo-size);
-    padding-bottom: 55px;
+    padding-bottom: 70px;
   }
 
   .text-block-subheading {
@@ -343,6 +343,7 @@ line-height: inherit;
     display: flex;
     justify-self: start;
     top: 2vh;
+    padding-bottom: 70px;
   }
 
 
