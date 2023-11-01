@@ -510,7 +510,7 @@ line-height: inherit;
 @media (width >= 1024px) {
   .header {
     /* min-block-size: 640px; */
-    max-height: 500px;
+    max-height: 499px;
     margin-bottom: 200px;
   }
 
@@ -525,7 +525,7 @@ line-height: inherit;
     align-self: start;
     width: 491px;
     /* margin-top:885px; */
-    margin-bottom: 164pxpx;
+    margin-bottom: 164px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
@@ -560,6 +560,11 @@ line-height: inherit;
     width: 344px;
   }
 
+.content-section {
+  padding-bottom: 80px;
+
+}
+
   .content-section:nth-child(2) {
     display: grid;
     grid-template-columns: 1fr;
@@ -572,6 +577,6 @@ line-height: inherit;
 
   .footer {
     max-width: 1440px;
-    min-height: 768px;
+    max-height: 768px;
   }
 }
