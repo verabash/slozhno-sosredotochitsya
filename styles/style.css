@@ -210,12 +210,12 @@ line-height: inherit;
 
 .footer {
   position: relative;
-  block-size: 75dvb;
+  block-size: 100dvb;
   display: flex;
   justify-content: center;
   align-items: center;
  background-color: var(--main-bg-color);
-
+ block-size: max(668px, 100vh);
 }
 
 .footer__logo {
@@ -511,6 +511,7 @@ line-height: inherit;
   .header {
     /* min-block-size: 640px; */
     /* max-height: 499px; */
+    height: 100vh;
     margin-bottom: 190px;
   }
 
@@ -596,7 +597,7 @@ line-height: inherit;
   .footer {
     position: relative;
     max-width: 1440px;
-   /* max-height: 766px; */
+   height: 100vh;
   }
 
   .footer.decorated-zone::after {
