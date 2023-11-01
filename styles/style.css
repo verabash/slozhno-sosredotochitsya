@@ -510,9 +510,10 @@ line-height: inherit;
 @media (width >= 1024px) {
   .header {
     /* min-block-size: 640px; */
-    max-height: 499px;
+    /* max-height: 499px; */
     margin-bottom: 190px;
   }
+
 
   .header__logo {
     position: relative;
@@ -595,15 +596,12 @@ line-height: inherit;
   .footer {
     position: relative;
     max-width: 1440px;
-    height: 766px;
+    /* height: 766px; */
   }
 
-  .decorated-zone::after {
+  .footer.decorated-zone::after {
     right: 10px;
     bottom: 10px;
   }
 
-  .decorated-zone::before {
-    bottom: 10px;
-  }
 }
