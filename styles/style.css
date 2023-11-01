@@ -516,7 +516,7 @@ line-height: inherit;
 
   .header__logo {
     position: absolute;
-    margin-top: 264px;
+    margin-top: 64px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
