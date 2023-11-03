@@ -304,6 +304,7 @@ line-height: inherit;
   }
 
   .grid {
+    display: grid;
     grid-template-columns: 1fr;
   }
 
