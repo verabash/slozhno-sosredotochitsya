@@ -303,7 +303,7 @@ line-height: inherit;
     width: 350px;
   }
 
-  .grid {
+  /* .grid {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -328,7 +328,7 @@ line-height: inherit;
     grid-column: 1;
     grid-row: 5;
     
-  }
+  } */
 
   .grid__image {
     gap: var(--main-gap);
