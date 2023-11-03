@@ -1,13 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-image: url(../images/cover-image-dark.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   background-attachment: fixed;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
+
 }
 
 body {
@@ -20,7 +18,7 @@ body {
 }
 
 .content {
-  padding: 0 10px;
+  padding-left: 10px;
 }
 
 .text-block__heading {
@@ -30,10 +28,14 @@ body {
 }
 
 .header {
+  background-image:var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   block-size: max(668px,100vh);
   position: relative;
   display: grid;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   /* margin-bottom: 40px; */
@@ -235,7 +237,7 @@ line-height: inherit;
   .page {
     max-height: 668px;
   }
-  
+
   .header {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -339,6 +341,14 @@ line-height: inherit;
 
   .page {
     height: 1024px;
+    /* padding-left: 10px; */
+
+  }
+
+  .content {
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+
   }
 
   .header {
@@ -355,7 +365,7 @@ line-height: inherit;
     display: flex;
     justify-self: start;
     top: 2vh;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
   }
 
 
@@ -407,14 +417,7 @@ line-height: inherit;
   }
 
   .header__paragraph {
-    width: 45vw;
-  }
-
-  
-  
-  .content {
-    padding: calc(3 + var(--main-gap)) var(--main-gap);
-    padding-bottom: 20px;
+    width: 48vw;
   }
   
   .content__link {
@@ -544,6 +547,10 @@ line-height: inherit;
     /* margin-bottom: 190px; */
   }
 
+  .content {
+    padding-right: 20px;
+  }
+
 
   .header__logo {
     position: relative;
@@ -552,8 +559,8 @@ line-height: inherit;
   }
 
   .header__paragraph {
-  width: 48vw;
-}
+    width: 68vh;
+  }
 
   .header__text {
     grid-row: 2;
@@ -567,7 +574,7 @@ line-height: inherit;
   justify-self: center;
   align-self: start;
   position: absolute;
-  margin-right: 188px;
+  right: 50vh;
   }
 
   .header__theme-menu-list {
@@ -575,6 +582,7 @@ line-height: inherit;
     flex-direction: row;
     margin-top: 20px;
   }
+
 
   .what .text-blocks {
     display: grid;

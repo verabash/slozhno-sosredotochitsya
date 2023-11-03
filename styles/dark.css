@@ -19,7 +19,7 @@
   --main-heading-color: #000028;
   --section-heading-color: #ff0070;
 
-  background-image: url(../images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 .theme_dark .header_rec {
@@ -44,10 +44,8 @@
     --main-text-color: #f1b2ce;
     --main-heading-color: #000028;
     --section-heading-color: #ff0070;
+    --bg-image: url(../images/cover-image-dark.png);
 
   }
-    .page {
-      background-image: url(../images/cover-image-dark.png);
-    }
-
+    
 }
