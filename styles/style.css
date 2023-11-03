@@ -306,7 +306,7 @@ line-height: inherit;
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .grid-heading {
@@ -337,6 +337,7 @@ line-height: inherit;
   }
 
   .grid__image {
+    block-size: 100%;
     gap: var(--main-gap);
     padding-top: 10px;
     object-fit: cover;
