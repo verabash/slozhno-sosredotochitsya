@@ -337,6 +337,7 @@ line-height: inherit;
     object-fit: cover;
     /* grid-column: span 2; */
     width: 100%;
+    height: 100%;
     /* width: 96.1vw;
     height: 94.7vw; */
     object-position: center;
