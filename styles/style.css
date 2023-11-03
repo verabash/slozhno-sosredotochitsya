@@ -283,12 +283,12 @@ line-height: inherit;
     right: 38px;
   }
   
-  .decorated-zone::after {
+  .decorated-zone::before {
     right: 10px;
     top: 10px;
   }
 
-  .decorated-zone::before {
+  .decorated-zone::after {
     left: 10px;
     bottom: 10px;
   }
