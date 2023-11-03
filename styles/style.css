@@ -323,8 +323,8 @@ line-height: inherit;
   
   .grid__image:last-of-type {
     grid-column: span 2;
-    /* width: 96.1vw;
-    height: 63.2vw; */
+    width: 96.1vw;
+    height: 63.2vw;
   }
 
   .grid__image {
@@ -333,8 +333,8 @@ line-height: inherit;
     object-fit: cover;
     /* grid-column: span 2; */
     width: 100%;
-    /* width: 96.1vw;
-    height: 94.7vw; */
+    width: 96.1vw;
+    height: 94.7vw;
     object-position: center;
 
   }
@@ -616,7 +616,7 @@ line-height: inherit;
 
   .content-section:nth-child(2) {
     display: grid;
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
   }
 
   .content-section:first-of-type {
