@@ -350,11 +350,6 @@ line-height: inherit;
 
   }
 
-  .content {
-    /* padding-left: 20px; */
-    /* padding-bottom: 20px; */
-
-  }
 
   .header {
     grid-template-rows: auto;
@@ -562,9 +557,6 @@ line-height: inherit;
     /* margin-bottom: 190px; */
   }
 
-  .content {
-    /* padding-right: 20px; */
-  }
 
 
   .header__logo {
@@ -624,7 +616,7 @@ line-height: inherit;
 
   .content-section:nth-child(2) {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
   }
 
   .content-section:first-of-type {
