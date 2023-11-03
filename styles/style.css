@@ -514,27 +514,36 @@ line-height: inherit;
   }
   
   .grid__image:nth-of-type(3) {
-    grid-row: span 2;
+    grid-row: 3 / span 2;
+    grid-column: 1 / span 1;
     /* width: 31vw;
     height: 75vw; */
   }
   
   .grid__image:nth-of-type(2) {
-    grid-row: span 2;
-    /* width: 31vw;
+    grid-row: 2 / span 2;
+    grid-column: 3 / span 1;
+    /* width: 31v;
     height: 58vw; */
   }
   
   .grid__image:first-of-type {
-    grid-column: span 2;
+    grid-column: 1 /span 2;
+    grid-row: 2 /span 1;
     /* width: 64vw;
     height: 25.5vw; */
   }
   
   .grid__image:last-of-type {
-    grid-column: span 2;
+    grid-column:  2 / span 2;
+    grid-row: 4 / span 1;
     /* width: 63.5vw;
     height: 41.9vw; */
+  }
+
+  .grid__image:nth-child(4) {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
   }
 
 }
