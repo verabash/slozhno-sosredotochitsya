@@ -508,32 +508,33 @@ line-height: inherit;
     block-size: 100%;
     object-fit: cover;
     object-position: center;
-    width: 31vw;
-    height: 31vw;
+    /* width: 31vw;
+    height: 31vw; */
+    width:100%;
   }
   
   .grid__image:nth-of-type(3) {
     grid-row: span 2;
-    width: 31vw;
-    height: 75vw;
+    /* width: 31vw;
+    height: 75vw; */
   }
   
   .grid__image:nth-of-type(2) {
     grid-row: span 2;
-    width: 31vw;
-    height: 58vw;
+    /* width: 31vw;
+    height: 58vw; */
   }
   
   .grid__image:first-of-type {
     grid-column: span 2;
-    width: 64vw;
-    height: 25.5vw;
+    /* width: 64vw;
+    height: 25.5vw; */
   }
   
   .grid__image:last-of-type {
     grid-column: span 2;
-    width: 63.5vw;
-    height: 41.9vw;
+    /* width: 63.5vw;
+    height: 41.9vw; */
   }
 
 }
