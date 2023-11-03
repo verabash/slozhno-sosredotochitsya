@@ -303,11 +303,6 @@ line-height: inherit;
     grid-template-columns: 1fr;
   }
 
-  .grid__image {
-    width: 100%;
-
-  }
-
   .grid__image:nth-of-type(3) {
     grid-row: span 2;
     /* width: 96.1vw;
@@ -336,6 +331,7 @@ line-height: inherit;
     gap: var(--main-gap);
     padding-top: 10px;
     grid-column: span 2;
+    width: 100%;
     /* width: 96.1vw;
     height: 94.7vw; */
     object-position: center;
