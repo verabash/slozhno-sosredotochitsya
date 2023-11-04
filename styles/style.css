@@ -544,8 +544,8 @@ line-height: inherit;
   }
 
   .grid__image {
-    width: 98%;
-    height: 98%;
+    width: 99%;
+    height: 99%;
   }
 
 }
@@ -563,7 +563,8 @@ line-height: inherit;
 
   .header__logo {
     position: relative;
-    top: 23vh;
+    padding-left: 20px;
+    top: 24vh;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
