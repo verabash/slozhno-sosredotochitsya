@@ -553,7 +553,8 @@ line-height: inherit;
   }
 
   .content {
-  /* padding-left: 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
   .header__logo {
@@ -571,7 +572,7 @@ line-height: inherit;
     grid-row: 2;
     align-self: start;
     width: 491px;
-    top: 116px;
+    top: 120px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
