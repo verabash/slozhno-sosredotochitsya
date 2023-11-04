@@ -554,7 +554,7 @@ line-height: inherit;
 
   .content {
     margin-left: 20px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 
   .header__logo {
@@ -565,7 +565,7 @@ line-height: inherit;
   }
 
   .header__paragraph {
-    width: 68vh;
+    width: 65vh;
   }
 
   .header__text {
