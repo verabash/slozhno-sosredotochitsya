@@ -543,11 +543,6 @@ line-height: inherit;
     grid-row: 3 / span 2;
   }
 
-  .grid__image {
-    width: 99%;
-    height: 99%;
-  }
-
 }
 
 
@@ -557,8 +552,8 @@ line-height: inherit;
     height: 100vh;
   }
 
-.content {
-  padding-left: 20px;
+  .content {
+  /* padding-left: 20px; */
 }
 
   .header__logo {
@@ -576,7 +571,7 @@ line-height: inherit;
     grid-row: 2;
     align-self: start;
     width: 491px;
-    top: 114px;
+    top: 116px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
@@ -623,7 +618,7 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 0px;
+    margin-top: 10px;
     padding-top: 40px;
   }
 
