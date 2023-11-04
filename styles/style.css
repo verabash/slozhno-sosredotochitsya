@@ -605,12 +605,14 @@ line-height: inherit;
   }
 
   .content-section__title {
-    width: 344px;
+    width: 281px;
   }
 
   .content-section {
+  display: grid;
   padding-bottom: 78px;
-
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
 }
 
   .content-section:nth-child(2) {
