@@ -252,7 +252,7 @@ line-height: inherit;
   }
 
   .content {
-    padding-right: 10px;
+    padding-left: 20px;
   }
 
   .header {
@@ -551,7 +551,9 @@ line-height: inherit;
     /* margin-bottom: 190px; */
   }
 
-
+.content {
+  padding-left: 20px;
+}
 
   .header__logo {
     position: relative;
@@ -615,7 +617,7 @@ line-height: inherit;
 
   .content-section:first-of-type {
     margin-top: 0px;
-    padding-top: 38px;
+    padding-top: 30px;
   }
 
   .grid-heading {
