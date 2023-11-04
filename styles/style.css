@@ -241,10 +241,9 @@ line-height: inherit;
 }
 
 
-@media (width <768px) {
+@media (width <=768px) {
   
   .page {
-    max-height: 668px;
     display: grid;
   }
 
@@ -343,14 +342,12 @@ line-height: inherit;
   .grid__image:first-of-type {
     grid-column: 1;
     grid-row: 2;
-
   }
   
   .grid__image:last-of-type {
     grid-column: 1;
     grid-row: 6;
   }
-
 
 }
 
@@ -478,7 +475,7 @@ line-height: inherit;
   }
 
   .content-section:nth-child(3) {
-    padding-bottom: 79px;
+    padding-bottom: 85px;
   }
   
   
