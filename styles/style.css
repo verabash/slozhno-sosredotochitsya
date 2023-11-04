@@ -453,7 +453,7 @@ line-height: inherit;
 
   .content-section:first-of-type {
     /* margin-top: 270px; */
-    padding-top: 42px;
+    padding-top: 20px;
   }
 
   .content-section__title {
@@ -618,6 +618,10 @@ line-height: inherit;
   .content-section:first-of-type {
     margin-top: 0px;
     padding-top: 30px;
+  }
+
+  .content-section:last-of-type {
+    padding-bottom: 58px;
   }
 
   .grid-heading {
