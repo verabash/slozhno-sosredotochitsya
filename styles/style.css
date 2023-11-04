@@ -211,9 +211,15 @@ line-height: inherit;
   margin: 20px 0px;
 }
 
+.grid {
+  display: grid;
+  max-width: 1024px;
+}
+
 
 .grid__image {
   block-size: auto;
+  object-fit: cover;
   object-position: center;
   height: 99%;
   width: 99%;
