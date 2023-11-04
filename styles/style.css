@@ -367,7 +367,7 @@ line-height: inherit;
 
   .content {
     padding-left: 20px;
-    padding-right: 5px;
+    padding-right: 25px;
   }
 
   .header__logo {
@@ -376,7 +376,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    top: 2.5vh;
+    top: 3vh;
     padding-bottom: 60px;
   }
 
