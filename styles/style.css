@@ -624,6 +624,7 @@ line-height: inherit;
   .content-section:nth-child(2) {
     display: grid;
     grid-template-columns: 1fr;
+    padding-bottom: 78px;
   }
 
   .content-section:first-of-type {
