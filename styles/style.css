@@ -326,8 +326,6 @@ line-height: inherit;
 
   .grid__image {
    gap: var(--main-gap);
-   width: 100%;
-   height: 100%;
   }
 
   .grid-heading {
