@@ -195,7 +195,7 @@ line-height: inherit;
 
 
 .content-section__title {
-  color: var(--nav-color);
+  color: var(--nav-hover-color);
   font-size: 18px;
   line-height: 23px;
 }
@@ -248,7 +248,7 @@ line-height: inherit;
   }
 
   .content {
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
 
   .header {
