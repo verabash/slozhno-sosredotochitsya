@@ -450,7 +450,7 @@ line-height: inherit;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
     padding-bottom: 70px;
-
+    padding: 0 10px;
   }
 
    .content-section:nth-child(2) {
@@ -489,11 +489,6 @@ line-height: inherit;
 
   .text-blocks .text-block:first-of-type {
     margin-block-start: 0;
-  }
-  
-  .text-block_paragraph {
-    /* margin-block-start: calc(var(--main-gap) / 2); */
-    width: 355px;
   }
   
   .causes .content-section__title {
