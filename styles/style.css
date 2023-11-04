@@ -450,8 +450,12 @@ line-height: inherit;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
     padding-bottom: 70px;
-    padding: 0 10px;
   }
+
+.text-block__main-content {
+    padding: 0 10px;
+
+}
 
    .content-section:nth-child(2) {
     grid-template-columns: 1fr;
