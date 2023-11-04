@@ -241,7 +241,7 @@ line-height: inherit;
 }
 
 
-@media (width <= 768px) {
+@media (width < 768px) {
   
   .page {
     max-height: 668px;
@@ -344,7 +344,6 @@ line-height: inherit;
   .grid__image:last-of-type {
     grid-column: 1;
     grid-row: 5;
-    
   }
 
 
