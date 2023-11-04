@@ -19,7 +19,7 @@
   --main-heading-color: #353430;
   --section-heading-color: #353430;
 
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 
@@ -35,6 +35,7 @@
   --nav-hover-color: rgb(50 49 45 / 0.4);
 }
 
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -45,10 +46,8 @@
     --section-heading-color: #353430;
     --header-logo-color: #ffc2e6;
     --footer-logo-color: #ffc2e6;
-  }
+    --bg-image: url(../images/cover-image-light.png);
 
-  .page {
-    background-image: url(../images/cover-image-light.png);
   }
   
   .header_rec {

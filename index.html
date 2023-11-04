@@ -5,21 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
   <title>Сложно сосредоточиться</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
   <link rel="stylesheet" href="./styles/globals.css" />
   <link rel="stylesheet" href="./styles/variables.css" />
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/dark.css" />
   <link rel="stylesheet" href="./styles/light.css" />
-  <link rel="stylesheet" href="./images/favicon.ico" sizes="any" />
-  <link rel="stylesheet" href="./images/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./images/mobile-icon.png" />
-  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="icon" href="./images/favicon.ico" sizes="any" />
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="./images/mobile-icon.png" />
 </head>
 
-<body class="page theme_dark">
+<body class="page">
   <header class="header decorated-zone">
-    <span class="header__rec" aria-hidden="true">rec</span>
+    <span class="header__rec" aria-hidden="true">REC</span>
     <nav class="header__theme-menu">
       <ul class="header__theme-menu-list">
         <li class="header__theme-menu-item">
@@ -28,13 +29,13 @@
           </button>
         </li>
         <li class="header__theme-menu-item">
-          <button class="header__theme-menu-button header__theme-menu-button_type_auto">
+          <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+          disabled>
             Авто
           </button>
         </li>
         <li class="header__theme-menu-item">
-          <button class="header__theme-menu-button header__theme-menu-button_type_dark header__theme-menu-button_active"
-            disabled="true">
+          <button class="header__theme-menu-button header__theme-menu-button_type_dark ">
             Неон
           </button>
         </li>
@@ -59,7 +60,7 @@
           <h3 class="text-block__heading title-decor">Многозадачность</h3>
           <div class="text-block__main-content">
             <p class="text-block__paragraph">
-              собенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность,
+              Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность,
               когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не
               существует.
               Исследователи
@@ -197,41 +198,18 @@
 
     <section class="content-section content__section grid">
       <h2 class="grid-heading title-decor">А можно в картинках?</h2>
-      <img
-      src="./images/sunset.png"
-      loading="lazy"
-      alt="картинка заката"
-      class="grid__image"
-      />
+      
+      <img src="./images/sunset.png" loading="lazy" alt="картинка заката" class="grid__image" />
+      
+      <img src="./images/ice-cream.png" loading="lazy" alt="картинка десерта в виде милых персонажей"
+      class="grid__image" />
 
-      <img
-      src="./images/ice-cream.png"
-      loading="lazy"
-      alt="картинка десерта в виде милых персонажей"
-      class="grid__image"
-      />
+      <img src="./images/tape.png" loading="lazy" alt="картинка кассеты" class="grid__image" />
+      
+      <img src="./images/books.png" loading="lazy" alt="картинка стопки книг" class="grid__image" />
 
+      <img src="./images/street.png" loading="lazy" alt="картинка японской улицы" class="grid__image" />
 
-      <img
-      src="./images/tape.png"
-      loading="lazy"
-      alt="картинка кассеты"
-      class="grid__image"
-      />
-
-      <img
-      src="./images/books.png"
-      loading="lazy"
-      alt="картинка стопки книг"
-      class="grid__image"
-      />
-
-      <img
-      src="./images/street.png"
-      loading="lazy"
-      alt="картинка японской улицы"
-      class="grid__image"
-      />
     </section>
   </main>
   <footer class="footer decorated-zone">
