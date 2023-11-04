@@ -367,7 +367,7 @@ line-height: inherit;
 
   .content {
     padding-left: 20px;
-    padding-right: 15px;
+    padding-right: 10px;
   }
 
   .header__logo {
@@ -376,7 +376,7 @@ line-height: inherit;
     font-size: var(--footer-logo-size);
     display: flex;
     justify-self: start;
-    top: 2vh;
+    top: 1.5vh;
     padding-bottom: 60px;
   }
 
@@ -479,7 +479,7 @@ line-height: inherit;
   }
 
   .content-section:nth-child(3) {
-    padding-bottom: 80px;
+    padding-bottom: 78px;
     /* width: 355px; */
   }
   
