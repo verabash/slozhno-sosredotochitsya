@@ -305,7 +305,8 @@ line-height: inherit;
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: repeat(5/ 1fr); */
   }
 
 
@@ -332,7 +333,7 @@ line-height: inherit;
   }
 
   .grid__image {
-    display: block;
+    /* display: block; */
     block-size: 100%;
     gap: var(--main-gap);
     padding-top: 10px;
