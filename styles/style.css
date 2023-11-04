@@ -453,9 +453,9 @@ line-height: inherit;
     padding-bottom: 70px;
   }
 
-  .text-block__paragraph {
+  /* .text-block__paragraph {
     padding: 0 10px;
-  }
+  } */
 
 
    .content-section:nth-child(2) {
