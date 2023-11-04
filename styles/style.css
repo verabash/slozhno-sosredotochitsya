@@ -321,11 +321,13 @@ line-height: inherit;
     gap: var(--main-gap);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, auto);
-    height: 1500px;
+    height: 1450px;
   }
 
   .grid__image {
    gap: var(--main-gap);
+   object-fit: cover;
+   object-position: center;
   }
 
   .grid-heading {
