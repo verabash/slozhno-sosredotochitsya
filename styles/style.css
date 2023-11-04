@@ -481,7 +481,10 @@ line-height: inherit;
     margin-block-start: var(--main-gap);
   }
 
-  
+  .text-block__heading {
+    margin-top: 0px;
+  }
+
   .text-blocks .text-block:first-of-type {
     margin-block-start: 0;
   }
