@@ -629,6 +629,11 @@ line-height: inherit;
     padding-bottom: 58px;
   }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
   .grid-heading {
     font-size: 18px;
     font-weight: 700;
