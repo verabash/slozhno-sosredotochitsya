@@ -442,7 +442,7 @@ line-height: inherit;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: var(--main-gap);
-    padding-bottom: 90px;
+    padding-bottom: 80px;
 
   }
 
@@ -617,7 +617,7 @@ line-height: inherit;
 
   .content-section:first-of-type {
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
   .content-section:last-of-type {
