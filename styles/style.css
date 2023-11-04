@@ -475,6 +475,7 @@ line-height: inherit;
 
   .content-section:nth-child(3) {
     padding-bottom: 85px;
+    /* width: 355px; */
   }
   
   
@@ -491,7 +492,8 @@ line-height: inherit;
   }
   
   .text-block_paragraph {
-    margin-block-start: calc(var(--main-gap) / 2);
+    /* margin-block-start: calc(var(--main-gap) / 2); */
+    width: 355px;
   }
   
   .causes .content-section__title {
