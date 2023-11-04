@@ -365,10 +365,10 @@ line-height: inherit;
     padding-bottom: 20px;
   }
 
-  .content {
+  /* .content {
     padding-left: 20px;
-    padding-right: 25px;
-  }
+    padding-right: 20px;
+  } */
 
   .header__logo {
     position: relative;
