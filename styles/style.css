@@ -293,7 +293,6 @@ line-height: inherit;
   }
 
 
-
   .header__rec {
     top:10px;
     right: 38px;
@@ -319,6 +318,11 @@ line-height: inherit;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, auto);
   }
+
+.grid__image {
+  position: relative;
+  background-attachment: fixed;
+}
 
   .grid-heading {
     grid-column: 1;
