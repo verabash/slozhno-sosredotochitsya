@@ -366,7 +366,7 @@ line-height: inherit;
   }
 
   .content {
-    padding: 0 15px;
+    padding-left: 15px;
   }
 
   .header__logo {
@@ -540,6 +540,11 @@ line-height: inherit;
   .grid__image:nth-child(4) {
     grid-column: 1 / span 1;
     grid-row: 3 / span 2;
+  }
+
+  .grid__image {
+    width: 99%;
+    height: 99%;
   }
 
 }
