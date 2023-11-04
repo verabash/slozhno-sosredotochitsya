@@ -554,7 +554,7 @@ line-height: inherit;
 
   .content {
     margin-left: 20px;
-    /* margin-right: 5px; */
+    margin-right: 5px;
 }
 
   .header__logo {
@@ -619,7 +619,7 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    margin-top: 10px;
+    margin-top: 15px;
     padding-top: 40px;
   }
 
