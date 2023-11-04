@@ -367,7 +367,7 @@ line-height: inherit;
 
   .content {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
   }
 
   .header__logo {
@@ -544,8 +544,8 @@ line-height: inherit;
   }
 
   .grid__image {
-    width: 99%;
-    height: 99%;
+    width: 98%;
+    height: 98%;
   }
 
 }
