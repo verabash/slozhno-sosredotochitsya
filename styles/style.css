@@ -476,6 +476,10 @@ line-height: inherit;
   .content-section:not(:last-of-type) {
     margin-block-end: calc(4 + var(--main-gap));
   }
+
+  .content-section:nth-child(3) {
+    padding-bottom: 79px;
+  }
   
   
   .text-block {
