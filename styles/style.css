@@ -321,13 +321,7 @@ line-height: inherit;
     gap: var(--main-gap);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);
-    /* height: 1500px; */
-  }
-
-  .grid__image {
-   gap: var(--main-gap);
-   object-fit: cover;
-   object-position: center;
+    object-fit: contain;
   }
 
   .grid-heading {
@@ -356,14 +350,12 @@ line-height: inherit;
     grid-column: 1;
     grid-row: 2;
 
-    /* object-fit: contain; */
   }
   
   .grid__image:last-of-type {
     grid-column: 1;
     grid-row: 6;
     height: 63.2vw;
-    object-fit: cover;
   }
 
 
