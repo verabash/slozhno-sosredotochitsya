@@ -211,11 +211,6 @@ line-height: inherit;
   margin: 20px 0px;
 }
 
-.grid {
-  display: grid;
-  max-width: 1024px;
-}
-
 
 .grid__image {
   block-size: auto;
@@ -246,7 +241,7 @@ line-height: inherit;
 }
 
 
-@media (width <= 768px) {
+@media (width <768px) {
   
   .page {
     max-height: 668px;
@@ -323,13 +318,6 @@ line-height: inherit;
     grid-template-rows: repeat(6, auto);
   }
 
-  .grid__image {
-    object-position: center;
-    object-fit: cover;
-    block-size: auto;
-    height: 99%;
-    width: 99%;
-  }
 
   .grid-heading {
     grid-column: 1;
@@ -525,8 +513,6 @@ line-height: inherit;
   .grid-heading {
     grid-column: 1/-1;
   }
-  
-  
   
   .grid__image:nth-of-type(3) {
     grid-row: 2 / span 3;
