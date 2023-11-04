@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  
   background-attachment: fixed;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
@@ -295,17 +294,20 @@ line-height: inherit;
   }
 
 
+
   .header__rec {
     top:10px;
     right: 38px;
   }
   
-  .decorated-zone::before {
+
+  .decorated-zone::after {
     right: 10px;
     top: 10px;
   }
 
-  .decorated-zone::after {
+
+  .decorated-zone::before {
     left: 10px;
     bottom: 10px;
   }
@@ -313,7 +315,6 @@ line-height: inherit;
   .header__paragraph {
     width: 350px;
   }
-
 
   .grid {
     display: grid;
@@ -355,8 +356,6 @@ line-height: inherit;
 
 
 @media (width >=768px) {
-
-
 
   .header {
     grid-template-rows: auto;
@@ -413,7 +412,6 @@ line-height: inherit;
     grid-template-columns: 1fr;
     justify-items: end;
     margin-top: 110px;
-
   }
 
   .header__text {
@@ -453,11 +451,6 @@ line-height: inherit;
     padding-bottom: 70px;
   }
 
-  /* .text-block__paragraph {
-    padding: 0 10px;
-  } */
-
-
    .content-section:nth-child(2) {
     grid-template-columns: 1fr;
     padding-top: 10px;
@@ -465,7 +458,6 @@ line-height: inherit;
   }
 
   .content-section:first-of-type {
-    /* margin-top: 270px; */
     padding-top: 17px;
   }
 
@@ -480,14 +472,14 @@ line-height: inherit;
 
   .content-section:nth-child(3) {
     padding-bottom: 78px;
-    /* width: 355px; */
   }
+
   
   
   .text-block {
     margin-block-start: var(--main-gap);
   }
-
+  
   .text-block__heading {
     margin-top: 0px;
   }
@@ -546,7 +538,7 @@ line-height: inherit;
 
 
 @media (width >= 1024px) {
-
+  
   .header {
     height: 100vh;
   }
@@ -587,7 +579,6 @@ line-height: inherit;
     flex-direction: row;
     margin-top: 20px;
   }
-
 
   .what .text-blocks {
     display: grid;
