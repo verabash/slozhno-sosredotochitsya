@@ -367,6 +367,7 @@ line-height: inherit;
 
   .content {
     padding-left: 15px;
+    padding-right: 0px;
   }
 
   .header__logo {
