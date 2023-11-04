@@ -342,6 +342,10 @@ line-height: inherit;
     height: 63.2vw;
   }
   
+  .grid__image:nth-of-type(4) {
+    height: 95vw;
+  }
+
   .grid__image:nth-of-type(2) {
     grid-column: 1;
     grid-row: 3;
