@@ -525,7 +525,6 @@ line-height: inherit;
   .grid__image:nth-of-type(2) {
     grid-row: 2 / span 2;
     grid-column: 3 / span 1;
-  
   }
   
   .grid__image:first-of-type {
@@ -605,7 +604,14 @@ line-height: inherit;
   }
 
   .content-section__title {
-    width: 281px;
+    width: 320px;
+  }
+
+
+  .content-section:nth-child(3) {
+    grid-template-columns: 1fr 3fr;
+    padding-top: 10px;
+    padding-bottom: 80px;
   }
 
   .content-section {
@@ -634,11 +640,11 @@ line-height: inherit;
   grid-template-columns: repeat(3, 1fr);
 }
 
-  .grid-heading {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-    margin-top: 20px;
+.grid-heading {
+   font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-top: 20px;
   }
   
 .text-block__paragraph {
