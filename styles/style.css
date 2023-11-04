@@ -214,7 +214,6 @@ line-height: inherit;
 
 .grid__image {
   block-size: auto;
-  object-fit: cover;
   object-position: center;
   height: 99%;
   width: 99%;
