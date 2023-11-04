@@ -251,7 +251,7 @@ line-height: inherit;
     padding: 0px 10px;
   }
 
-  .content-section:first-of-type {
+  .content-section:nth-child(2) {
     padding-bottom: 5px;
   }
 
